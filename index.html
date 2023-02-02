@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Amanda Padilha | Portfólio</title>
+</head>
+
+<body>
+    <section id="navbar" class="sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="Amanda Padilha's Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item"> <a class="nav-link" href="#">QUEM SOU EU</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">CONHECIMENTOS</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">PROJETOS</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">FORMAÇÕES</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">CURRÍCULO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="header">
+        <div class="row pt-4 align-items-center g-5">
+            <div id="title-id" class="col-lg-7 d-grid gap-4">
+                <div class="d-grid gap-2">
+                    <h1>Olá, eu sou <span>Amanda Padilha!</span></h1>
+                    <h2>desenvolvedora Front-End e UX Designer.</h2>
+                </div>
+                <div id="btns-header" class="container">
+                    <button type="button" class="btn btn-lg btn-primary mx-2">VER PROJETOS</button>
+                    <button type="button" class="btn btn-lg btn-outline-primary mx-2 "> FALE COMIGO!</button>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <img class="img-fluid" src="./img/girlDev.svg" alt="Garota desenvolvedora no computador com um gato.">
+            </div>
+        </div>
+    </section>
+    <section id="presentation">
+        <img src="./img/foto-perfil.jpeg" alt="Foto de perfil de Amanda Padilha">
+        <h3>Quem sou eu</h3>
+        <p>Olá, que bom que você está aqui! Meu nome é Amanda Padilha e sou desenvolvedora web e UX Designer. Eu crio e
+            desenvolvo produtos digitais para que usuários tenham experiências melhores.</p>
+    </section>
+    <section id="knowledges">
+        <h3>Conhecimentos</h3>
+        <div class="container text-center g-4">
+            <div id="cardsKnowledgesRow" class="row row-cols-lg-6 row-cols-md-4 row-cols-2 g-2">
+
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+
+        <h3>Projetos</h3>
+        <div class="container-fluid">
+            <div id="cardsProjectsRow" class="row row-cols-1 row-cols-md-2 g-3">
+
+            </div>
+        </div>
+        <button class="btn btn-outline-secondary">VER TODOS OS PROJETOS</button>
+
+    </section>
+    <section id="courses">
+        <h3>Cursos e formação</h3>
+        <div class="container-fluid">
+            <div class="row row-cols-md-2 row-cols-1 g-3">
+                <div class="col">
+
+                    <div class="card p-4 h-100">
+                        <h3>Cursos</h3>
+                        <div id="cardCoursesDiv" class="h-100"></div>
+                        <a href="https://www.linkedin.com/in/amanda-padilha/details/certifications/"
+                            target="_blank"><button class="btn btn-outline-secondary btn-course">VER TODOS OS CURSOS</button>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="col">
+
+                    <div class="card p-4 h-100">
+                        <h3>Formação</h3>
+                        <div id="cardFormationDiv" class="h-100"></div>
+                        <a href="https://www.linkedin.com/in/amanda-padilha/details/education/" target="_blank"><button class="btn btn-outline-secondary btn-course">VER TODAS AS FORMAÇÕES</button>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+    </section>
+    <section id="CTA">
+        <div class="row g-5">
+            <div class="col-md-5">
+                <img class="img-fluid" src="./img/cat-pc.svg" alt="Ilustração de gato olhando computador">
+            </div>
+            <div class="col-md-7 ">
+                <div>
+                    <h1>Gostou? <br><span>Vamos trabalhar juntos!</span></h1>
+                    <button type="button" class="btn btn-primary mb-4 mt-3 px-5">FALE COMIGO!</button><br>
+                    <div class="d-inline"></div>
+                    <a href="https://www.linkedin.com/in/amanda-padilha/" target="_blank"><img class="icon-img mx-2" src="./img/linkedin.svg" alt="Ícone do Linkedin">
+                    </a>
+                    <a href="" target="_blank"><img class="icon-img mx-2" src="./img/github1.svg" alt="Ícone do GitHub">
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="row">
+            <div class="col-md-6 col-xsm-12">© Amanda Padilha, 2022</span></div>
+            <div class="col-md-6 col-xsm-12">Icons by Flaticon | Images by Storyset by Freepik</div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
